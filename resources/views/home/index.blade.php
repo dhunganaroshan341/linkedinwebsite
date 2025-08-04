@@ -77,67 +77,55 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="{{ route('index') }}">Home</a>
-                                            <ul>
-                                                <li><a href="{{ route('index') }}">Home One</a></li>
-                                                <li><a href="{{ route('index2') }}">Home Two</a></li>
-                                                <li><a href="{{ route('index3') }}">Home Three</a></li>
-                                                <li><a href="{{ route('index4') }}">Home Four</a></li>
-                                                <li><a href="{{ route('index5') }}">Home Five</a></li>
-                                            </ul>
+                                        <li class="current">
+                                            <a href="{{ route('index') }}">Home</a>
+                                            {{--
+                <ul>
+                    <li><a href="{{ route('index') }}">Home One</a></li>
+                    <li><a href="{{ route('index2') }}">Home Two</a></li>
+                    <li><a href="{{ route('index3') }}">Home Three</a></li>
+                    <li><a href="{{ route('index4') }}">Home Four</a></li>
+                    <li><a href="{{ route('index5') }}">Home Five</a></li>
+                </ul>
+                --}}
                                         </li>
+
                                         <li><a href="{{ route('about') }}">About</a></li>
-                                        <li class="dropdown"><a href="{{ route('index') }}">Solutions</a>
+
+                                        <li class="dropdown">
+                                            <a href="{{ route('index') }}">Job</a>
                                             <ul>
-                                                <li><a href="{{ route('service') }}">Our Solutions</a></li>
-                                                <li><a href="{{ route('serviceDetails') }}">Executive Search</a></li>
-                                                <li><a href="{{ route('serviceDetails2') }}">Training Session</a></li>
-                                                <li><a href="{{ route('serviceDetails3') }}">Career Growth</a></li>
-                                                <li><a href="{{ route('serviceDetails4') }}">Payroll Services</a></li>
-                                                <li><a href="{{ route('serviceDetails5') }}">Workforce System</a></li>
-                                                <li><a href="{{ route('serviceDetails6') }}">Temporary Jobs</a></li>
+                                                <li><a href="{{ route('job') }}">Place Job</a></li>
+                                                <li><a href="{{ route('job2') }}">Job Seekers</a></li>
+                                                <li><a href="{{ route('job3') }}">Job Openings</a></li>
+                                                <li><a href="{{ route('job4') }}">Job Apply</a></li>
+                                                <li><a href="{{ route('jobDetails') }}">Job Details</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="{{ route('index') }}">Pages</a>
-                                            <ul>
-                                                <li class="dropdown"><a href="{{ route('index') }}">Job</a>
-                                                    <ul>
-                                                        <li><a href="{{ route('job') }}">Place Job</a></li>
-                                                        <li><a href="{{ route('job2') }}">Job Seekers</a></li>
-                                                        <li><a href="{{ route('job3') }}">Job Openings</a></li>
-                                                        <li><a href="{{ route('job4') }}">Job Apply</a></li>
-                                                        <li><a href="{{ route('jobDetails') }}">Job Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown"><a href="{{ route('index') }}">Portfolio</a>
-                                                    <ul>
-                                                        <li><a href="{{ route('portfolio') }}">Portfolio 3 column</a>
-                                                        </li>
-                                                        <li><a href="{{ route('portfolio2') }}">Portfolio 2 column</a>
-                                                        </li>
-                                                        <li><a href="{{ route('portfolio3') }}">Portfolio Masonry</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="{{ route('team') }}">Our Team</a></li>
-                                                <li><a href="{{ route('faq') }}">FAQ's</a></li>
-                                                <li><a href="{{ route('testimonial') }}">Testimonials</a></li>
-                                                <li><a href="{{ route('login') }}">Login</a></li>
-                                                <li><a href="{{ route('signup') }}">Sing Up</a></li>
-                                                <li><a href="{{ route('pageError') }}">404</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="{{ route('index') }}">Blog</a>
+
+                                        {{--
+            <li><a href="{{ route('team') }}">Our Team</a></li>
+            <li><a href="{{ route('faq') }}">FAQ's</a></li>
+            <li><a href="{{ route('testimonial') }}">Testimonials</a></li>
+            <li><a href="{{ route('login') }}">Login</a></li>
+            <li><a href="{{ route('signup') }}">Sign Up</a></li>
+            <li><a href="{{ route('pageError') }}">404</a></li>
+            --}}
+
+                                        <li class="dropdown">
+                                            <a href="{{ route('index') }}">Blog</a>
                                             <ul>
                                                 <li><a href="{{ route('blog') }}">Blog Grid</a></li>
                                                 <li><a href="{{ route('blog2') }}">Blog Standard</a></li>
                                                 <li><a href="{{ route('blogDetails') }}">Blog Details</a></li>
                                             </ul>
                                         </li>
+
                                         <li><a href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
+
                         </div>
                         <div class="menu-right-content">
                             <div class="search-btn mr_20"><button class="search-toggler"><i class="icon-1"></i></button>
