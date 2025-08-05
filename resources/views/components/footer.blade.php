@@ -4,8 +4,10 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget logo-widget mr_30">
-                        <figure class="footer-logo mb_20"><a href="{{ route('index') }}"><img src="{{ asset('assets/images/logo.png') }}" alt=""></a></figure>
-                        <p>Since 2018, JobAway has connecting hospitality workers to thousands of business, private events and universities.</p>
+                        <figure class="footer-logo mb_20"><a href="{{ route('index') }}"><img
+                                    src="{{ asset('assets/images/logo-bg.png') }}" alt=""></a></figure>
+                        <p>Since 2018, JobAway has connecting hospitality workers to thousands of business, private
+                            events and universities.</p>
                         <div class="download-btn">
                             <a href="{{ route('about') }}" class="apple-store">
                                 <img src="{{ asset('assets/images/icons/icon-4.png') }}" alt="">
@@ -90,9 +92,13 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="bottom-inner">
-                <div class="copyright"><p>Copyright &copy; 2025 <a href="{{ route('index') }}">JobAway</a> All rights reserved.</p></div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2025 <a href="{{ route('index') }}">JobAway</a> All rights reserved.</p>
+                </div>
                 <ul class="social-links">
-                    <li><h5>Follow Us On:</h5></li>
+                    <li>
+                        <h5>Follow Us On:</h5>
+                    </li>
                     <li><a href="{{ route('index') }}"><i class="icon-22"></i></a></li>
                     <li><a href="{{ route('index') }}"><i class="icon-23"></i></a></li>
                     <li><a href="{{ route('index') }}"><i class="icon-24"></i></a></li>

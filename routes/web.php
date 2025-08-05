@@ -26,7 +26,7 @@ Route::prefix('home')->group(function () {
     Route::controller(homeController::class)->group(function () {
         Route::get('/about','about')->name('about');
         Route::get('/contact','contact')->name('contact');
-        Route::get('/index','index')->name('index');
+        Route::get('/index','index2')->name('index');
         Route::get('/index-2','index2')->name('index2');
         Route::get('/index-3','index3')->name('index3');
         Route::get('/index-4','index4')->name('index4');

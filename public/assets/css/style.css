@@ -1,4 +1,4 @@
- 
+
 /* Css For Jobaway */
 
 /************ TABLE OF CONTENTS ***************
@@ -44,7 +44,7 @@
 
 
 
-/*** 
+/***
 
 ====================================================================
   Reset
@@ -59,7 +59,7 @@
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -169,7 +169,7 @@ input,button,select,textarea{
 ul,li{
   list-style:none;
   padding:0px;
-  margin:0px; 
+  margin:0px;
 }
 
 input{
@@ -307,7 +307,7 @@ h1,h2,h3,h4,h5,h6{
 
 .handle-preloader .animation-preloader .spinner{
   border: 3px solid #fff;
-  border-top-color: rgba(255, 255, 255, 0.3); 
+  border-top-color: rgba(255, 255, 255, 0.3);
 }
 
 /* AnimaciÃ³n del preloader */
@@ -359,8 +359,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-figure{
-  margin: 0px;
+figure {
+	margin: 0px;
+	max-width: 150px;
 }
 
 img {
@@ -580,7 +581,7 @@ html.lenis {
 }
 
 .scroll-to-top:hover::after {
-  
+
 }
 
 .scroll-to-top:hover::before {
@@ -683,7 +684,7 @@ html.lenis {
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-One
@@ -1131,7 +1132,7 @@ button.ltr {
   background: #E3E7EB;
   border-radius: 4px;
 }
-  
+
 .progress-box .bar-inner{
   position:relative;
   display:block;
@@ -1142,7 +1143,7 @@ button.ltr {
   -ms-transition:all 1500ms ease;
   -o-transition:all 1500ms ease;
   -moz-transition:all 1500ms ease;
-  transition:all 1500ms ease; 
+  transition:all 1500ms ease;
 }
 
 .accordion-box .block .acc-content {
@@ -1170,7 +1171,7 @@ button.ltr {
 }
 
 .tabs-box .tab.active-tab{
-  display:block;  
+  display:block;
 }
 
 .tabs-box .tab{

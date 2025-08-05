@@ -6,10 +6,11 @@
   background: #EFF2E6;
 }
 
-.training-block-one{
-  position: relative;
-  float: left;
-  width: 25%;
+.training-block-one {
+	position: relative;
+	float: left;
+	width: 25%;
+	max-height: 700px;
 }
 
 .training-block-one .inner-box{
@@ -135,7 +136,7 @@
 }
 
 @media only screen and (max-width: 599px){
-  
+
 }
 
 @media only screen and (max-width: 499px){
