@@ -698,9 +698,10 @@ div#mCSB_1_container{
   border-bottom: 1px solid #D1D1D1;
 }
 
-.main-header .outer-container{
-  position: relative;
-  padding: 0px 40px;
+.main-header .outer-container {
+	position: relative;
+	padding: 0px 40px;
+	background: #eff2e6;
 }
 
 .header-top .top-inner{

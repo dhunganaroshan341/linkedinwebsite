@@ -419,32 +419,32 @@ html.lenis {
   background: #111;
 }
 
-.theme-btn:before{
-  position: absolute;
-  content: '';
-  width: 0%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  transform: translateX(0);
-  transform-origin: left center;
-  z-index: -1;
-  background: var(--secondary-color);
-  transition: all 500ms ease;
+.theme-btn::before {
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	transform: translateX(0);
+	transform-origin: left center;
+	z-index: -1;
+	background: var(--aurora-blue-light);
+	transition: all 500ms ease;
 }
 
-.theme-btn:after{
-  position: absolute;
-  content: '';
-  width: 0%;
-  height: 100%;
-  right: 0px;
-  top: 0px;
-  transform: translateX(0);
-  transform-origin: right center;
-  z-index: -1;
-  background: var(--secondary-color);
-  transition: all 500ms ease;
+.theme-btn::after {
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 100%;
+	right: 0px;
+	top: 0px;
+	transform: translateX(0);
+	transform-origin: right center;
+	z-index: -1;
+	background: var(--aurora-blue);
+	transition: all 500ms ease;
 }
 
 .theme-btn:hover:before,

@@ -9,7 +9,7 @@ use App\Http\Controllers\SolutionsController;
 
 
 Route::controller(HomeController::class)->group(function () {
-    Route::get('/', 'index')->name('index');
+    Route::get('/', 'index2')->name('index');
 });
 
 //  blog

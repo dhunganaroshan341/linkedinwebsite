@@ -146,7 +146,7 @@
 .blog-details-content .comment-box .form-inner .form-group label span
 
 {
-  color: var(--theme-color-2);
+  color: var(--aurora-blue);
 }
 
 
@@ -173,7 +173,7 @@ button.ltr,
 .blog-details-content .post-share-option .tags-list li a:hover
 
 {
-  background: var(--theme-color-2);
+  background: var(--aurora-blue);
 }
 
 
@@ -197,7 +197,7 @@ button.ltr,
 .contact-section .form-inner .form-group textarea:focus
 
 {
-  border-color: var(--theme-color-2) !important;
+  border-color: var(--aurora-blue) !important;
 }
 
 

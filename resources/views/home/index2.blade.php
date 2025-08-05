@@ -1,6 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- page wrapper -->
+<style>
+    :root {
+        /* Aurora Red */
+        --aurora-red: #f00c0d;
+        --aurora-red-light: #ff4d4f;
+        --aurora-red-dark: #a9000b;
 
+        /* Aurora Blue */
+        --aurora-blue: #3ea6e5;
+        --aurora-blue-light: #6fc3f0;
+        --aurora-blue-dark: #2178b4;
+
+        /* Aurora Orange */
+        --aurora-orange: #f4b46b;
+        --aurora-orange-light: #f8cc96;
+        --aurora-orange-dark: #d9953e;
+    }
+
+    /* === Background Color Classes === */
+    .bg-aurora-red {
+        background-color: var(--aurora-red);
+    }
+
+    .bg-aurora-red-light {
+        background-color: var(--aurora-red-light);
+    }
+
+    .bg-aurora-red-dark {
+        background-color: var(--aurora-red-dark);
+    }
+
+    .bg-aurora-blue {
+        background-color: var(--aurora-blue);
+    }
+
+    .bg-aurora-blue-light {
+        background-color: var(--aurora-blue-light);
+    }
+
+    .bg-aurora-blue-dark {
+        background-color: var(--aurora-blue-dark);
+    }
+
+    .bg-aurora-orange {
+        background-color: var(--aurora-orange);
+    }
+
+    .bg-aurora-orange-light {
+        background-color: var(--aurora-orange-light);
+    }
+
+    .bg-aurora-orange-dark {
+        background-color: var(--aurora-orange-dark);
+    }
+
+    /* === Text Color Classes === */
+    .text-aurora-red {
+        color: var(--aurora-red);
+    }
+
+    .text-aurora-red-light {
+        color: var(--aurora-red-light);
+    }
+
+    .text-aurora-red-dark {
+        color: var(--aurora-red-dark);
+    }
+
+    .text-aurora-blue {
+        color: var(--aurora-blue);
+    }
+
+    .text-aurora-blue-light {
+        color: var(--aurora-blue-light);
+    }
+
+    .text-aurora-blue-dark {
+        color: var(--aurora-blue-dark);
+    }
+
+    .text-aurora-orange {
+        color: var(--aurora-orange);
+    }
+
+    .text-aurora-orange-light {
+        color: var(--aurora-orange-light);
+    }
+
+    .text-aurora-orange-dark {
+        color: var(--aurora-orange-dark);
+    }
+
+    /* === Border Color Classes === */
+    .border-aurora-red {
+        border-color: var(--aurora-red);
+    }
+
+    .border-aurora-red-light {
+        border-color: var(--aurora-red-light);
+    }
+
+    .border-aurora-red-dark {
+        border-color: var(--aurora-red-dark);
+    }
+
+    .border-aurora-blue {
+        border-color: var(--aurora-blue);
+    }
+
+    .border-aurora-blue-light {
+        border-color: var(--aurora-blue-light);
+    }
+
+    .border-aurora-blue-dark {
+        border-color: var(--aurora-blue-dark);
+    }
+
+    .border-aurora-orange {
+        border-color: var(--aurora-orange);
+    }
+
+    .border-aurora-orange-light {
+        border-color: var(--aurora-orange-light);
+    }
+
+    .border-aurora-orange-dark {
+        border-color: var(--aurora-orange-dark);
+    }
+
+    .homeCurrent a {
+        color: var(--aurora-red-dark) !important;
+    }
+</style>
 @php
     $css =
         '<link href="' .
@@ -48,7 +181,68 @@
 @endphp
 @include('components.head')
 
-<!-- page wrapper -->
+
+<style>
+    h4 {
+        color: var(--aurora-blue-dark) !important;
+    }
+
+    span {
+        color: var(--aurora-red-dark) !important;
+        border-color: var(--aurora-red) !important;
+    }
+
+    .content-box span {
+        color: var(--theme-color-2) !important;
+    }
+
+    .dueal-section span {
+        color: var(--aurora-red) !important;
+    }
+
+    .industries-style-two span {
+        /* color: var(--aurora-blue-light) !important; */
+        color: var(--theme-color-2) !important;
+    }
+
+    .testimonial-section span {
+        /* color: var(--aurora-blue-light) !important; */
+        color: var(--theme-color-2) !important;
+    }
+
+    .sub-title {
+        /* color: var(--aurora-blue-light) !important; */
+        color: var(--theme-color-2) !important;
+    }
+
+    .subscribe-style-two span {
+        color: var(--aurora-blue) !important;
+    }
+
+    .menu-right-content .theme-btn {
+        /* background: var(--aurora-blue) !important; */
+    }
+
+    .banner-section .btn-box span {
+        color: white !important;
+    }
+
+    .sec-title span {
+        /* color: var(--aurora-blue-light) !important; */
+        color: var(--theme-color-2) !important;
+    }
+
+    .copyright a {
+        color: var(--aurora-red-dark) !important;
+
+    }
+
+    .category {
+        /* color: var(--aurora-red-dark) !important; */
+        color: white !important;
+        background: var(--theme-color-2) !important;
+    }
+</style>
 
 <body>
 
@@ -121,7 +315,8 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current "><a href="{{ route('index') }}">Home</a>
+                                        <li style = " color: var(--aurora-red-dark)" class=" homeCurrent "><a
+                                                href="{{ route('index') }}">Home</a>
                                             {{-- <ul>
                                                 <li><a href="{{ route('index') }}">Home One</a></li>
                                                 <li><a href="{{ route('index2') }}">Home Two</a></li>
@@ -145,7 +340,7 @@
                                         {{-- <li class="dropdown"><a href="{{ route('index') }}">Pages</a>
                                             <ul> --}}
                                         <li class=""><a href="{{ route('index') }}">Category</a>
-                                        <li class=""><a href="{{ route('index') }}">Job</a>
+                                        <li class=""><a href="{{ route('index') }}">Find Jobs</a>
 
                                         </li>
                                         <li class=""><a href="{{ route('index') }}">Credentials</a>
@@ -169,7 +364,7 @@
                                         <li><a href="{{ route('pageError') }}">404</a></li>
                                     </ul>
                                     </li> --}}
-                                        <li class="dropdown"><a href="{{ route('index') }}">Blog</a>
+                                        <li class=""><a href="{{ route('index') }}">Blog</a>
                                             <ul>
                                                 <li><a href="{{ route('blog') }}">Blog Grid</a></li>
                                                 <li><a href="{{ route('blog2') }}">Blog Standard</a></li>
@@ -273,8 +468,8 @@
                         <div class="content_block_one">
                             <div class="content-box mr_80">
                                 <div class="sec-title pb_20 sec-title-animation animation-style2">
-                                    <span class="sub-title mb_10 title-animation">About us</span>
-                                    <h2 class="title-animation">The Leading Human Resource <span>Platform</span>
+                                    <span class="sub-title mb_10 title- text-aurora-red">About us</span>
+                                    <h2 class="title-animation">The Leading Human Resource <span>Company</span>
                                     </h2>
                                 </div>
                                 <div class="text-box">
@@ -349,8 +544,7 @@
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-6"></i></div>
                                     <h3><a href="{{ route('index') }}">Improve Employee</a></h3>
-                                    <p>Invest in employee training and development programs to enhance skills and
-                                        knowledge.</p>
+                                    <p>Invest in employee training and development programs to enhance skills </p>
                                     <div class="link"><a href="{{ route('index') }}">Learn More<i
                                                 class="icon-7"></i></a></div>
                                 </div>
@@ -368,7 +562,7 @@
                 style="background-image: url('{{ asset('assets/images/shape/shape-3.png') }}')"></div>
             <div class="auto-container">
                 <div class="sec-title light centred pb_60 sec-title-animation animation-style2">
-                    <span class="sub-title mb_10 title-animation">Industries</span>
+                    <span class="sub-title mb_10 title-animation">Categories</span>
                     <h2 class="title-animation">Industries Served</h2>
                 </div>
                 <div class="row clearfix">
@@ -583,7 +777,7 @@
                                 class="lightbox-image video-btn" data-caption=""><i class="icon-8"></i></a>
                         </div>
                         <div class="text-box">
-                            <h3><a href="{{ route('jobDetails') }}">Information Technology Management</a></h3>
+                            <h3><a href="{{ route('jobDetails') }}">IT Service Management</a></h3>
                             <div class="link"><a href="{{ route('jobDetails') }}">Find Works<img
                                         src="{{ asset('assets/images/icons/icon-8.png') }}" alt=""></a></div>
                         </div>
@@ -835,7 +1029,7 @@
             <div class="auto-container">
                 <div class="sec-title light centred pb_60 sec-title-animation animation-style2">
                     <span class="sub-title mb_10 title-animation">Testimonials</span>
-                    <h2 class="title-animation">Words From Our Partners</h2>
+                    <h2 class="title-animation">Words From Clients</h2>
                 </div>
                 <div class="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
                     <div class="testimonial-block-one">

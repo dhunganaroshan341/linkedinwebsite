@@ -6,7 +6,7 @@
                     <div class="footer-widget logo-widget mr_30">
                         <figure class="footer-logo mb_20"><a href="{{ route('index') }}"><img
                                     src="{{ asset('assets/images/logo-bg.png') }}" alt=""></a></figure>
-                        <p>Since 2018, JobAway has connecting hospitality workers to thousands of business, private
+                        <p>Since 2018, Aurora has connecting hospitality workers to thousands of business, private
                             events and universities.</p>
                         <div class="download-btn">
                             <a href="{{ route('about') }}" class="apple-store">
@@ -93,7 +93,7 @@
         <div class="auto-container">
             <div class="bottom-inner">
                 <div class="copyright">
-                    <p>Copyright &copy; 2025 <a href="{{ route('index') }}">JobAway</a> All rights reserved.</p>
+                    <p>Copyright &copy; 2025 <a href="{{ route('index') }}">Aurora</a> All rights reserved.</p>
                 </div>
                 <ul class="social-links">
                     <li>
